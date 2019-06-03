@@ -128,7 +128,7 @@ var library = {
             addPlaylist.id = "p" + uid() + ":"
             addPlaylist.name = name
             addPlaylist.tracks = []
-            Object.assign(library.playlists, addPlaylist)
+           library.playlists = addPlaylist
      console.log(library.playlists)
      } 
 addPlaylist("Matt")
